@@ -1,6 +1,6 @@
 # Hangman Game
 
-![Hangman Game Demo](public\hangman.gif) <!-- Replace with your actual GIF link -->
+![Hangman Game Demo](/public/hangman.gif) 
 
 A classic Hangman game built using React. Try to guess the hidden word before you run out of incorrect guesses!
 
@@ -25,7 +25,7 @@ A classic Hangman game built using React. Try to guess the hidden word before yo
 
 You can customize the game by adjusting the following options:
 
-- Maximum allowed wrong guesses (default is 6).
+- Maximum allowed wrong guesses.
 - Gallows images for different stages of the hangman.
 
 These options are defined in the `Hangman` component's `defaultProps` at the beginning of the `Hangman.js` file.
@@ -36,10 +36,6 @@ This project was created as a fun way to practice React development. It uses the
 
 Feel free to explore the code and make any improvements or modifications you'd like. If you find any issues or have suggestions, please open an issue or submit a pull request.
 
-## Credits
-
-- Hangman images: [Link to the image source]
-- Word list: [Link to the word list source]
 
 ## License
 
