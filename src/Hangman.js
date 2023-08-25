@@ -17,7 +17,7 @@ class Hangman extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { nWrong: 0, guessed: new Set(), answer: "apple" };
+    this.state = { nWrong: 0, guessed: new Set(), answer: this.props.answer };
     this.handleGuess = this.handleGuess.bind(this);
     this.showButtons = this.showButtons.bind(this);
   }
@@ -61,7 +61,12 @@ class Hangman extends Component {
     if (this.props.maxWrong > this.state.nWrong) {
       return <p className="Hangman-btns">{this.generateButtons()}</p>;
     } else {
-      return <p>You Lose</p>;
+      return (
+        <div>
+          <p>You Lose</p>
+          <p>The Correct answer is: {this.state.answer}</p>
+        </div>
+      );
     }
   }
   /** render: render game */
