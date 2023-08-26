@@ -2,7 +2,7 @@
 
 ### You can play the live game [here](https://strawhatrag.github.io/react-hangman-game/).
 
-![Hangman Game Demo](public\hangman.gif) <!-- Replace with your actual GIF link -->
+![Hangman Game Demo](public/hangman.gif) <!-- Replace with your actual GIF link -->
 
 A classic Hangman game built using React. Try to guess the hidden word before you run out of incorrect guesses!
 
